@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--clr-lightest-oth);
+    border-bottom: 1px solid orange;
+}
+.first-header{
+    /* height: 3px; */
+    padding-bottom: 10px;
+}
+.logo{
+    color: var(--clr-normal-org);
+    margin-left: 14px;
+    padding-top: 12px;
+    font-size:38px;
+} 
+/* .second-header{
+    height: 30px;
+    
+} */
+.content-header {
+    text-align: center;
+    height: 34px;
+}
+.content-header .list-items {
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    
+}
+.content-header .list-items .lits-item {
+    font-size: 18px;
+    margin:0px 20px;
+
+}
+/* animation / waiting/*/
+
+/* main  */
+main {
+    background-color: var(--clr-light-greys);
+
+}
+.article-1{
+    padding-top: 3.4rem;
+    padding-left: 1.7rem;
+}
+.content-art1{
+    background-color: var(--clr-normal-greys);
+    padding-right: 60px;
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 7.6rem;
+    width: 940px;
+    
+}
+.game-item{
+    background-color: var(--clr-dark-greys);
+    padding-right: 30px;
+    padding: 24px;
+    border-radius: 16px;
+    margin-bottom: 2.5rem;
+    margin-top: 15px;
+
+}
+.title-game{
+    color: var(--clr-normal-org);
+    font-size: 28px;
+    font-family: 'DynaPuff', cursive ;
+}
+.info-game{
+    font-size: 22px;
+    margin-top:12px;
+    color: rgba(202, 201, 201, 0.795);
+
+}
+.img-1{
+    height: 230px;
+    width: 430px;
+    border-radius: 15px;
+    border: 3px solid thistle;
+    margin-top: 20px;
+    
+}
+/* .target-A{
+    height: 50px;
+} */
+.display-info-img {
+    display: flex;
+}
+.mergre-game-info{
+    width: 390px;  
+    margin-right: 18px;  
+}
+.img-2{
+    height: 260px;
+    width: 430px;
+    border-radius: 15px;
+    margin-top:12px;
+    border: 3px solid thistle;
+}
+.img-3 {
+    height: 260px;
+    width: 550px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 3px solid thistle;
+    margin-bottom: 2px;
+}
+.content-art-2 {
+    background-color: var(--clr-normal-greys);
+    /* padding-right: 30px; */
+    padding: 15px;
+    border-radius: 16px;
+    margin-bottom: 7rem;
+    margin-left: 15rem;
+    width: 800px;
+}
+.others-items{
+    display: flex;
+}
+.game-item-other{
+    text-align: center;
+    width: 260px;
+    margin:22px;
+    background-color: var(--clr-dark-greys);
+    border-radius: 15px;
+    border: 3px solid rgb(125, 164, 182);
+}
+.img-other{
+    margin-top: 10px;
+    height: 140px;
+    width: 200px;
+    border-radius: 10px;
+}
+.title-other-game{
+    margin-bottom: 20px;   
+    margin-top:10px;
+    color: var(--clr-light-org);
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* login - aside */
+
+
+.itemPadding-login{
+    margin-left: 3rem;
+    padding-bottom: 3.4rem;
+}
+.item-login{
+    margin-bottom: 5px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top:5px;
+}
+.title-login{
+    color: var(--clr-dark-org);
+    width: 100px;
+    font-size: 25px;
+}
+.create-acount{
+    text-decoration: none;
+    color: var(--clr-dark-org);
+    margin-left: 10px;
+    font-size: 24px;
+}
+.input {
+    border-radius: 7px;
+    font-size: 13px;
+    height: 24px;
+    margin-bottom: 10px;
+    padding-left:10px ;
+    text-align: center;
+    background-color:var(--clr-light-greys)
+}
+.btn-sumbit{
+    background-color: var(--clr-normal-greys);
+    border: 0px;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 6px;
+    margin-left: 10px;
+    color: var(--clr-light-greys);
+    width: 80px;
+}
+.alertDom{
+    margin-top: 10px;
+    color: var(--clr-dark-greys);
+    margin-left: 13px;
+    font-size: 14px;
+}
+/* footer */
+.footer{
+    background-color: var(--clr-light-org);
+    text-align:center;
+}
+.section-footer{
+    padding: 20px;
+    display: flex;  
+}
+
+ .icon-fo {
+    padding:11px;
+}
+.icon-img{
+    height:20px;
+    width:20px;
+}
+.string-fo{
+    display:flex;
+    text-align:center;
+    margin-left:3rem;
+
+}
+.span-fo{
+    margin:12px;
+}
+.title-resource{
+    font-size:17px;
+    font-weight:bold;
+}
+.list-fo{
+    list-style-type:none;
+    font-size:18px;
+}
+.item-info{
+    font-size:14px;
+    list-style-type:none;    
+} 
+
+.copywright {
+    text-align:center;
+    padding-bottom:2rem;
+}
+
+/* -------- */
+img {
+    height: 20px;
+    width: 20px;
+}

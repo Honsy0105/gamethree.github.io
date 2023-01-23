@@ -1,0 +1,38 @@
+
+:root{
+  /* color */
+    --clr-normal-org:#E67A08;
+    --clr-dark-org:#B05B01;
+    --clr-light-org:#FD9322;
+
+    --clr-normal-greys: #566573;
+    --clr-dark-greys: #2E4053;
+    --clr-light-greys: #ABB2B9;
+
+    --clr-light-oth:#BDC3C7;
+    --clr-lightest-oth:#D5DBDB;
+
+    /* font family */
+    --font-fml-aton:var(font-family: 'Dancing Script', cursive);
+    --font-fml:var(--font-fml-aton);
+
+    --font-fml-changoo:var(font-family: 'DynaPuff', cursive);
+    --font-fml-chango:var(var(--font-fml-changoo))
+
+    --font-fml-varelaa:var(font-family: 'Varela Round', sans-serif);
+    --font-fml-varela:var(var(--font-fml-varelaa));
+
+    /* font size */
+     --font-size-normal:var(font-size :14px;);
+     --font-size-nrml: var(var(--font-size-normal))
+
+     --font-size-bigg:var(font-siz:22px);
+     --font-siz-big: var(var(--font-siz-big))
+
+     --font-size-bigestt:var(font-size:28px)
+     --font-size-bigest:var(--fon-size-bigestt)
+    
+     
+    
+
+}
